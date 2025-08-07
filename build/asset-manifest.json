@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Kodekamp-frontend/static/css/main.2a7bfc05.css",
+    "main.js": "/Kodekamp-frontend/static/js/main.6d315e12.js",
+    "static/media/IMG_20210219_110925.jpg": "/Kodekamp-frontend/static/media/IMG_20210219_110925.ddd25417f58ac773ec67.jpg",
+    "static/media/bootstrap-icons.woff?": "/Kodekamp-frontend/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/Kodekamp-frontend/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/cropped-D-4uKvnXoAAQzzz.png": "/Kodekamp-frontend/static/media/cropped-D-4uKvnXoAAQzzz.c75761b127f0a81a81ab.png",
+    "index.html": "/Kodekamp-frontend/index.html",
+    "main.2a7bfc05.css.map": "/Kodekamp-frontend/static/css/main.2a7bfc05.css.map",
+    "main.6d315e12.js.map": "/Kodekamp-frontend/static/js/main.6d315e12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a7bfc05.css",
+    "static/js/main.6d315e12.js"
+  ]
+}

@@ -1,0 +1,32 @@
+/* Navbar background fade-in on load */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.95);
+  transition: background-color 1s ease, box-shadow 1s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth hover shadow effect */
+.navbar:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo floating animation */
+.navbar-brand img {
+  transition: transform 1s ease;
+  animation: floatLogo 4s ease-in-out infinite;
+}
+
+@keyframes floatLogo {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Subtle hover effect for nav links */
+.nav-link {
+  transition: color 0.4s ease;
+}
+
+.nav-link:hover {
+  color: #11998e !important;
+}

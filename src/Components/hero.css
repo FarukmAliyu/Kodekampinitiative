@@ -1,0 +1,44 @@
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  background-image: url('../assets/IMG_20190530_120901-1024x768.jpg'); /* Update the path if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+}
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  background-image: url('../assets/IMG_20190530_120901-1024x768.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #f8f9fa;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent dark overlay */
+  z-index: 0;
+}
+
+.hero-section .container {
+  z-index: 1;
+  position: relative;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
