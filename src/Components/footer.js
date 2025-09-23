@@ -40,8 +40,8 @@ function Footer() {
           <div className="col-md-3 mb-4">
             <h5 className="section-title">Contact</h5>
             <ul className="list-unstyled">
-              <li><a href="mailto:amaliyu@hotmail.com">amaliyu@hotmail.com</a></li>
-              <li><a href="tel:08091133977">08091133977</a></li>
+              <li><a href="mailto:info@kodekampinitiative.com">info@kodekampinitiative.com</a></li>
+              <li><a href="tel:"></a></li>
               <li><a href="#">Download Media Kit</a></li>
               <li><a href="#">Impact Reports</a></li>
             </ul>
