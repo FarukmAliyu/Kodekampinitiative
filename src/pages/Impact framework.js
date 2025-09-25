@@ -1,14 +1,19 @@
 import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import '../App.css'; // Ensure this CSS file includes the `.about-header-image-container` class
-import headerImage from '../assets/blue.jpg';
 
 export default function ImpactFramework() {
   return (
     <div>
-      {/* Header Image Section */}
-      <div className="about-header-image-container position-relative">
-        <img src={headerImage} alt="Impact Framework Header" className="img-fluid w-100" />
+      {/* Header Section */}
+      <div
+        className="about-header-image-container position-relative d-flex align-items-center justify-content-center"
+        style={{
+          height: "300px",
+          background: "linear-gradient(to right, #007bff, #00c6ff)",
+        }}
+      >
+        <h1 className="text-white fw-bold display-4">Impact Framework</h1>
       </div>
 
       {/* Main Content Section */}
