@@ -1,12 +1,20 @@
 import React from 'react';
 import asmaImg from '../assets/IMG_20210219_110925.jpg';
-import headerImage from '../assets/blue.jpg'; // ✅ Updated path to TEAM header image
 
 export default function Team() {
   return (
-   <div className="about-header-image-container position-relative d-flex align-items-center justify-content-center" style={{ height: "300px", background: "linear-gradient(to right, #007bff, #00c6ff)" }}>
-  <h1 className="text-white fw-bold display-4">Meet Our Team</h1>
-</div>
+    <div>
+      {/* Header Section */}
+      <div
+        className="about-header-image-container position-relative d-flex align-items-center justify-content-center"
+        style={{
+          height: "300px",
+          background: "linear-gradient(to right, #007bff, #00c6ff)",
+        }}
+      >
+        <h1 className="text-white fw-bold display-4">Meet Our Team</h1>
+      </div>
+
       {/* Team Content Section */}
       <div className="container py-5 mt-5">
         <h1 className="text-center text-primary mb-4"></h1>
