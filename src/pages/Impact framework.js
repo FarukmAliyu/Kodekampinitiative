@@ -13,7 +13,7 @@ export default function ImpactFramework() {
           background: "linear-gradient(to right, #007bff, #00c6ff)",
         }}
       >
-        <h1 className="text-white fw-bold display-4">Impact Framework</h1>
+        <h1 className="text-white fw-bold display-4"></h1>
       </div>
 
       {/* Main Content Section */}
