@@ -12,7 +12,7 @@ export default function Team() {
           background: "linear-gradient(to right, #007bff, #00c6ff)",
         }}
       >
-        <h1 className="text-white fw-bold display-4">Meet Our Team</h1>
+        <h1 className="text-white fw-bold display-4"></h1>
       </div>
 
       {/* Team Content Section */}
